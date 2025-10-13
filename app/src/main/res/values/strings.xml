@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">GuiaPocket</string>
+    <string name="app_name">Pocket Guide - Jardim Universal</string>
+    <string name="service_image">Business Image</string>
+
+    <!-- Real Business Names -->
+    <string name="padaria_nsa">NSA Bakery</string>
+    <string name="enricar_frotas">Enricar Frotas</string>
+    <string name="centerlab_ambiental">Centerlab Environmental</string>
+    <string name="american_rolamentos">American Bearings and Bushings</string>
+    <string name="viccar_diesel">VicCar Diesel</string>
+    <string name="vpm_viagens">VPM Travel and Exchange</string>
+
+    <!-- Categories -->
+    <string name="bakery">Bakery</string>
+    <string name="transport">Fleet and Transport</string>
+    <string name="laboratory">Laboratory</string>
+    <string name="auto_parts">Auto Parts</string>
+    <string name="mechanic">Diesel Workshop</string>
+    <string name="travel_agency">Travel Agency</string>
+
+    <!-- Descriptions -->
+    <string name="padaria_nsa_description">Traditional bakery in Jardim Universal, offering fresh breads, snacks, cakes and bakery products. Quality service for years in the neighborhood.</string>
+    <string name="enricar_frotas_description">Company specialized in vehicle fleet management. Rental, maintenance and fleet administration services for companies.</string>
+    <string name="centerlab_ambiental_description">Environmental analysis laboratory specialized in water, effluent and soil analysis. Certified and with qualified professionals.</string>
+    <string name="american_rolamentos_description">Distributor of bearings, bushings, belts and industrial parts. Service for industries and commerce in the region.</string>
+    <string name="viccar_diesel_description">Workshop specialized in diesel engines and heavy vehicles. Maintenance, repairs and parts for trucks and buses.</string>
+    <string name="vpm_viagens_description">Travel and exchange agency. National and international packages, air tickets, accommodation and cultural exchange programs.</string>
+
+    <!-- Addresses -->
+    <string name="padaria_nsa_address">Av. Romulo Lupo, 948 - Jardim Universal, Araraquara - SP, 14801-700</string>
+    <string name="enricar_frotas_address">Av. Romulo Lupo, 1080 - Jardim Universal, Araraquara - SP, 14801-719</string>
+    <string name="centerlab_ambiental_address">Av. Brivaldo Prado, 25 - Jardim Universal, Araraquara - SP, 14801-731</string>
+    <string name="american_rolamentos_address">Rua Antonio Eugenio Nogueira da Gama, 242 - Jardim Universal, Araraquara - SP, 14801-732</string>
+    <string name="viccar_diesel_address">Rua Maria Marchi Vissali, 469 - Portão 2, R. Antonio Eugênio Nogueira da Gama, 580 - Portão 1 - Jardim Universal, Araraquara - SP, 14801-728</string>
+    <string name="vpm_viagens_address">R. Mahiba Barcha - Jardim Universal, Araraquara - SP, 14801-719</string>
+
+    <!-- Buttons and Messages -->
+    <string name="call">Call</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="open_in_maps">Open in Maps</string>
+    <string name="share">Share</string>
+    <string name="share_via">Share via</string>
+    <string name="no_website">Website not available</string>
 </resources>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Cores do Jardim Universal -->
+    <color name="primary_green">#FF2E7D32</color>
+    <color name="primary_dark_green">#FF1B5E20</color>
+    <color name="accent_orange">#FFFF9800</color>
+
+    <!-- Cores semânticas -->
+    <color name="primary_color">@color/primary_green</color>
+    <color name="secondary_color">@color/accent_orange</color>
+    <color name="background_color">#FFF5F5F5</color>
+    <color name="surface_color">#FFFFFFFF</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="on_background">#FF000000</color>
+    <color name="on_surface">#FF000000</color>
 </resources>
