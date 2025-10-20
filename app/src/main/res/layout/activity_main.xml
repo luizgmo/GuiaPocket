@@ -6,7 +6,13 @@
     android:orientation="vertical"
     android:background="?attr/colorBackgroundFloating"
     android:padding="16dp"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
+
+    <!-- Espaço para a barra de status -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
 
     <TextView
         android:id="@+id/tvTitulo"
@@ -21,7 +27,8 @@
     <ListView
         android:id="@+id/listViewServicos"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:divider="?attr/colorPrimary"
         android:dividerHeight="1dp"
         android:background="?attr/colorSurface"

@@ -30,6 +30,10 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun setupClickListeners() {
+        binding.backButton.setOnClickListener {
+            finish() //
+        }
+
         binding.callButton.setOnClickListener {
             val phoneNumber = intent.getStringExtra("SERVICE_PHONE")
             val intent = Intent(Intent.ACTION_DIAL).apply {
