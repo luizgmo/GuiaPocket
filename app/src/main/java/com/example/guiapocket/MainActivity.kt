@@ -14,6 +14,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.hide()
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -31,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                 categoria = getString(R.string.bakery),
                 descricao = getString(R.string.padaria_nsa_description),
                 telefone = "+5516997465878",
-                website = "",
+                website = "https://www.instagram.com/padaria.nsa/",
                 endereco = getString(R.string.padaria_nsa_address)
             ),
             Service(
@@ -41,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 categoria = getString(R.string.transport),
                 descricao = getString(R.string.enricar_frotas_description),
                 telefone = "+551633315981",
-                website = "",
+                website = "https://www.instagram.com/enricarfrotas/",
                 endereco = getString(R.string.enricar_frotas_address)
             ),
             Service(
@@ -51,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                 categoria = getString(R.string.laboratory),
                 descricao = getString(R.string.centerlab_ambiental_description),
                 telefone = "+551633315400",
-                website = "",
+                website = "https://www.centerlabambiental.com/",
                 endereco = getString(R.string.centerlab_ambiental_address)
             ),
             Service(
@@ -61,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 categoria = getString(R.string.auto_parts),
                 descricao = getString(R.string.american_rolamentos_description),
                 telefone = "+551633352537",
-                website = "",
+                website = "https://www.americanrolamentos.com.br/",
                 endereco = getString(R.string.american_rolamentos_address)
             ),
             Service(
@@ -71,7 +74,7 @@ class MainActivity : AppCompatActivity() {
                 categoria = getString(R.string.mechanic),
                 descricao = getString(R.string.viccar_diesel_description),
                 telefone = "+551633221935",
-                website = "",
+                website = "https://diskfone.com.br/cliente/L5lA",
                 endereco = getString(R.string.viccar_diesel_address)
             ),
             Service(
@@ -81,7 +84,7 @@ class MainActivity : AppCompatActivity() {
                 categoria = getString(R.string.travel_agency),
                 descricao = getString(R.string.vpm_viagens_description),
                 telefone = "+5516992464388",
-                website = "",
+                website = "https://vpmviagens.com.br/",
                 endereco = getString(R.string.vpm_viagens_address)
             )
         ).sortedBy { it.nome }

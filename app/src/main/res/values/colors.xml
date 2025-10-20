@@ -6,12 +6,10 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
 
-    <!-- Cores do Jardim Universal -->
     <color name="primary_green">#FF2E7D32</color>
     <color name="primary_dark_green">#FF1B5E20</color>
     <color name="accent_orange">#FFFF9800</color>
 
-    <!-- Cores semânticas -->
     <color name="primary_color">@color/primary_green</color>
     <color name="secondary_color">@color/accent_orange</color>
     <color name="background_color">#FFF5F5F5</color>

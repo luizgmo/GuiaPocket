@@ -2,7 +2,6 @@
     <string name="app_name">Guia Pocket - Jardim Universal</string>
     <string name="service_image">Imagem do Estabelecimento</string>
 
-    <!-- Nomes dos Estabelecimentos Reais -->
     <string name="padaria_nsa">Padaria NSA</string>
     <string name="enricar_frotas">Enricar Frotas</string>
     <string name="centerlab_ambiental">Centerlab Ambiental</string>
@@ -10,7 +9,6 @@
     <string name="viccar_diesel">VicCar Diesel</string>
     <string name="vpm_viagens">VPM Viagens e Intercâmbio</string>
 
-    <!-- Categorias -->
     <string name="bakery">Padaria</string>
     <string name="transport">Frotas e Transporte</string>
     <string name="laboratory">Laboratório</string>
@@ -18,7 +16,6 @@
     <string name="mechanic">Oficina Diesel</string>
     <string name="travel_agency">Agência de Viagens</string>
 
-    <!-- Descrições -->
     <string name="padaria_nsa_description">Padaria tradicional do Jardim Universal, oferecendo pães frescos, salgados, bolos e produtos de padaria. Atendimento de qualidade há anos no bairro.</string>
     <string name="enricar_frotas_description">Empresa especializada em gestão de frotas veiculares. Serviços de locação, manutenção e administração de frotas para empresas.</string>
     <string name="centerlab_ambiental_description">Laboratório de análises ambientais especializado em análises de água, efluentes e solos. Certificado e com profissionais qualificados.</string>
@@ -26,7 +23,6 @@
     <string name="viccar_diesel_description">Oficina especializada em motores diesel e veículos pesados. Manutenção, reparos e peças para caminhões e ônibus.</string>
     <string name="vpm_viagens_description">Agência de viagens e intercâmbio. Pacotes nacionais e internacionais, passagens aéreas, hospedagem e programas de intercâmbio cultural.</string>
 
-    <!-- Endereços -->
     <string name="padaria_nsa_address">Av. Romulo Lupo, 948 - Jardim Universal, Araraquara - SP, 14801-700</string>
     <string name="enricar_frotas_address">Av. Romulo Lupo, 1080 - Jardim Universal, Araraquara - SP, 14801-719</string>
     <string name="centerlab_ambiental_address">Av. Brivaldo Prado, 25 - Jardim Universal, Araraquara - SP, 14801-731</string>
@@ -34,7 +30,6 @@
     <string name="viccar_diesel_address">Rua Maria Marchi Vissali, 469 - Portão 2, R. Antonio Eugênio Nogueira da Gama, 580 - Portão 1 - Jardim Universal, Araraquara - SP, 14801-728</string>
     <string name="vpm_viagens_address">R. Mahiba Barcha - Jardim Universal, Araraquara - SP, 14801-719</string>
 
-    <!-- Botões e Mensagens -->
     <string name="call">Ligar</string>
     <string name="visit_website">Visitar Site</string>
     <string name="open_in_maps">Abrir no Maps</string>

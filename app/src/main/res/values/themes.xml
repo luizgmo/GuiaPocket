@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.GuiaPocket" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.GuiaPocket" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryVariant">@color/primary_dark_green</item>
         <item name="colorOnPrimary">@color/on_primary</item>

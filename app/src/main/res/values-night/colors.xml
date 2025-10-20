@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_green">#FF4CAF50</color>
+    <color name="primary_dark_green">#FF2E7D32</color>
+    <color name="accent_orange">#FFFFB74D</color>
+
+    <color name="primary_color">@color/primary_green</color>
+    <color name="secondary_color">@color/accent_orange</color>
+    <color name="background_color">#FF121212</color>
+    <color name="surface_color">#FF1E1E1E</color>
+    <color name="on_primary">#FF000000</color>
+    <color name="on_secondary">#FF000000</color>
+    <color name="on_background">#FFFFFFFF</color>
+    <color name="on_surface">#FFFFFFFF</color>
+</resources>
