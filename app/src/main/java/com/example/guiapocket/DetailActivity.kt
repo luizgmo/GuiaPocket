@@ -5,6 +5,8 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.os.LocaleListCompat
 import com.example.guiapocket.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
@@ -31,7 +33,26 @@ class DetailActivity : AppCompatActivity() {
 
     private fun setupClickListeners() {
         binding.backButton.setOnClickListener {
-            finish() //
+            finish()
+        }
+
+        binding.btnDayNight.setOnClickListener {
+            val isNight = AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES
+            val mode = if (isNight) {
+                AppCompatDelegate.MODE_NIGHT_NO
+            } else {
+                AppCompatDelegate.MODE_NIGHT_YES
+            }
+            AppCompatDelegate.setDefaultNightMode(mode)
+        }
+
+        binding.btnIdioma.setOnClickListener {
+            val idiomaAtual = AppCompatDelegate.getApplicationLocales()
+            val usandoIdiomaPadrao = !idiomaAtual.isEmpty && idiomaAtual[0]?.language == "en"
+            val proximoIdioma = if (usandoIdiomaPadrao) "pt" else "en"
+            AppCompatDelegate.setApplicationLocales(
+                LocaleListCompat.forLanguageTags(proximoIdioma)
+            )
         }
 
         binding.callButton.setOnClickListener {

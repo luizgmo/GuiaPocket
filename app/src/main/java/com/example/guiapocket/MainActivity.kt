@@ -3,6 +3,9 @@ package com.example.guiapocket
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.core.os.LocaleListCompat
 import com.example.guiapocket.adapter.ServiceAdapter
 import com.example.guiapocket.databinding.ActivityMainBinding
 import com.example.guiapocket.model.Service

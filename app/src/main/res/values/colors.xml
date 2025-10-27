@@ -10,12 +10,15 @@
     <color name="primary_dark_green">#FF1B5E20</color>
     <color name="accent_orange">#FFFF9800</color>
 
+    <color name="button_color_light">#FF6200EE</color>
+    <color name="button_text_light">#FFFFFFFF</color>
+
     <color name="primary_color">@color/primary_green</color>
-    <color name="secondary_color">@color/accent_orange</color>
+    <color name="secondary_color">@color/button_color_light</color>
     <color name="background_color">#FFF5F5F5</color>
     <color name="surface_color">#FFFFFFFF</color>
     <color name="on_primary">#FFFFFFFF</color>
-    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="on_secondary">@color/button_text_light</color>
     <color name="on_background">#FF000000</color>
     <color name="on_surface">#FF000000</color>
 </resources>

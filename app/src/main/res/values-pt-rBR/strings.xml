@@ -13,7 +13,7 @@
     <string name="transport">Frotas e Transporte</string>
     <string name="laboratory">Laboratório</string>
     <string name="auto_parts">Peças Automotivas</string>
-    <string name="mechanic">Oficina Diesel</string>
+    <string name="mechanic">Oficina</string>
     <string name="travel_agency">Agência de Viagens</string>
 
     <string name="padaria_nsa_description">Padaria tradicional do Jardim Universal, oferecendo pães frescos, salgados, bolos e produtos de padaria. Atendimento de qualidade há anos no bairro.</string>
@@ -36,4 +36,9 @@
     <string name="share">Compartilhar</string>
     <string name="share_via">Compartilhar via</string>
     <string name="no_website">Site não disponível</string>
+
+    <string name="back">Voltar</string>
+
+    <string name="daynight">Dia / Noite</string>
+    <string name="idioma">PT / EN</string>
 </resources>

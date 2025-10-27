@@ -37,7 +37,7 @@
             android:text="Nome do Serviço"
             android:textSize="17sp"
             android:textStyle="bold"
-            android:textColor="@color/primary_color"
+            android:textColor="@color/secondary_color"
             android:layout_marginBottom="6px" />
 
         <TextView

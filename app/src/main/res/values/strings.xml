@@ -13,7 +13,7 @@
     <string name="transport">Fleet and Transport</string>
     <string name="laboratory">Laboratory</string>
     <string name="auto_parts">Auto Parts</string>
-    <string name="mechanic">Diesel Workshop</string>
+    <string name="mechanic">Workshop</string>
     <string name="travel_agency">Travel Agency</string>
 
     <string name="padaria_nsa_description">Traditional bakery in Jardim Universal, offering fresh breads, snacks, cakes and bakery products. Quality service for years in the neighborhood.</string>
@@ -36,4 +36,9 @@
     <string name="share">Share</string>
     <string name="share_via">Share via</string>
     <string name="no_website">Website not available</string>
+
+    <string name="back">Back</string>
+
+    <string name="daynight">Day / Night</string>
+    <string name="idioma">PT / EN</string>
 </resources>

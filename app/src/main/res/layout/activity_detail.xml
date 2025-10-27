@@ -63,6 +63,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/call"
+                    android:backgroundTint="?attr/colorSecondary"
+                    android:textColor="?attr/colorOnSecondary"
                     android:layout_marginEnd="4dp" />
 
                 <Button
@@ -71,6 +73,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/visit_website"
+                    android:backgroundTint="?attr/colorSecondary"
+                    android:textColor="?attr/colorOnSecondary"
                     android:layout_marginStart="4dp" />
 
             </LinearLayout>
@@ -87,6 +91,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/open_in_maps"
+                    android:backgroundTint="?attr/colorSecondary"
+                    android:textColor="?attr/colorOnSecondary"
                     android:layout_marginEnd="4dp" />
 
                 <Button
@@ -95,6 +101,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/share"
+                    android:backgroundTint="?attr/colorSecondary"
+                    android:textColor="?attr/colorOnSecondary"
                     android:layout_marginStart="4dp" />
 
             </LinearLayout>
@@ -103,8 +111,38 @@
                 android:id="@+id/backButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Voltar para Lista"
+                android:text="@string/back"
+                android:backgroundTint="?attr/colorSecondary"
+                android:textColor="?attr/colorOnSecondary"
                 android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/btnDayNight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="?attr/colorSecondary"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:text="@string/daynight"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/btnIdioma"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="?attr/colorSecondary"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:text="@string/idioma"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
