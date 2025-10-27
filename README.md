@@ -23,17 +23,19 @@ O **Guia Pocket - Jardim Universal** é um aplicativo Android desenvolvido em Ko
 ### 🌞 Modo Claro
 | Português | Inglês |
 |-----------|---------|
-| ![Modo Claro PT](screenshots/light_pt.png) | ![Modo Claro EN](screenshots/light_en.png) |
+| <img src="screenshots/light_pt.png" width="280" alt="Modo Claro Português"> | <img src="screenshots/light_en.png" width="280" alt="Modo Claro Inglês"> |
 
 ### 🌙 Modo Escuro  
 | Português | Inglês |
 |-----------|---------|
-| ![Modo Escuro PT](screenshots/dark_pt.png) | ![Modo Escuro EN](screenshots/dark_en.png) |
+| <img src="screenshots/dark_pt.png" width="280" alt="Modo Escuro Português"> | <img src="screenshots/dark_en.png" width="280" alt="Modo Escuro Inglês"> |
 
 ## 🎥 Demonstração em Vídeo
-*Vídeo demonstrativo das funcionalidades do app*
+*Demonstração das funcionalidades principais do aplicativo*
 
-![Demo GIF](screenshots/demo.gif)
+<p align="center">
+  <img src="screenshots/demo.gif" width="300" alt="Demo do App Guia Pocket">
+</p>
 
 ## 🏢 Estabelecimentos Incluídos
 - 🥖 Padaria NSA
