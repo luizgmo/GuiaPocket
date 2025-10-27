@@ -21,14 +21,16 @@ O **Guia Pocket - Jardim Universal** é um aplicativo Android desenvolvido em Ko
 ## 📸 Capturas de Tela
 
 ### 🌞 Modo Claro
-| Português | Inglês |
-|-----------|---------|
-| <img src="screenshots/light_pt.png" width="280" alt="Modo Claro Português"> | <img src="screenshots/light_en.png" width="280" alt="Modo Claro Inglês"> |
+<p align="center">
+  <img src="screenshots/light_pt.png" width="280" alt="Modo Claro Português">
+  <img src="screenshots/light_en.png" width="280" alt="Modo Claro Inglês">
+</p>
 
 ### 🌙 Modo Escuro  
-| Português | Inglês |
-|-----------|---------|
-| <img src="screenshots/dark_pt.png" width="280" alt="Modo Escuro Português"> | <img src="screenshots/dark_en.png" width="280" alt="Modo Escuro Inglês"> |
+<p align="center">
+  <img src="screenshots/dark_pt.png" width="280" alt="Modo Escuro Português">
+  <img src="screenshots/dark_en.png" width="280" alt="Modo Escuro Inglês">
+</p>
 
 ## 🎥 Demonstração em Vídeo
 *Demonstração das funcionalidades principais do aplicativo*
