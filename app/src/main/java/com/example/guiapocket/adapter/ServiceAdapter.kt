@@ -1,36 +1,50 @@
 package com.example.guiapocket.adapter
 
-import android.content.Context
+import android.net.Uri
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
+import androidx.recyclerview.widget.RecyclerView
 import com.example.guiapocket.databinding.ItemServiceBinding
 import com.example.guiapocket.model.Service
 
 class ServiceAdapter(
-    context: Context,
-    private val lista: List<Service>
-) : ArrayAdapter<Service>(context, 0, lista) {
+    private val services: List<Service>,
+    private val onClick: (Service) -> Unit
+) : RecyclerView.Adapter<ServiceAdapter.ViewHolder>() {
 
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val binding: ItemServiceBinding
-        val itemView: View
+    inner class ViewHolder(val binding: ItemServiceBinding) :
+        RecyclerView.ViewHolder(binding.root) {
 
-        if (convertView == null) {
-            binding = ItemServiceBinding.inflate(LayoutInflater.from(context), parent, false)
-            itemView = binding.root
-            itemView.tag = binding
-        } else {
-            itemView = convertView
-            binding = itemView.tag as ItemServiceBinding
+        fun bind(service: Service) {
+            binding.tvNome.text = service.nome
+            binding.tvCategoria.text = service.categoria
+
+            if (service.foto.isNotEmpty()) {
+                binding.imgServico.setImageURI(Uri.parse(service.foto))
+            }
+
+            binding.root.setOnClickListener { onClick(service) }
         }
+    }
 
-        val service = lista[position]
-        binding.imgServico.setImageResource(service.foto)
-        binding.tvNome.text = service.nome
-        binding.tvCategoria.text = service.categoria
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+        val binding = ItemServiceBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        )
+        return ViewHolder(binding)
+    }
 
-        return itemView
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        holder.bind(services[position])
+    }
+
+    override fun getItemCount(): Int = services.size
+
+    fun updateList(newServices: List<Service>) {
+        (services as? MutableList)?.clear()
+        (services as? MutableList)?.addAll(newServices)
+        notifyDataSetChanged()
     }
 }
