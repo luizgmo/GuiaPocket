@@ -8,9 +8,10 @@ import com.example.guiapocket.databinding.ItemServiceBinding
 import com.example.guiapocket.model.Service
 
 class ServiceAdapter(
-    private val services: List<Service>,
     private val onClick: (Service) -> Unit
 ) : RecyclerView.Adapter<ServiceAdapter.ViewHolder>() {
+
+    private val services = mutableListOf<Service>()
 
     inner class ViewHolder(val binding: ItemServiceBinding) :
         RecyclerView.ViewHolder(binding.root) {
@@ -43,8 +44,8 @@ class ServiceAdapter(
     override fun getItemCount(): Int = services.size
 
     fun updateList(newServices: List<Service>) {
-        (services as? MutableList)?.clear()
-        (services as? MutableList)?.addAll(newServices)
+        services.clear()
+        services.addAll(newServices)
         notifyDataSetChanged()
     }
 }

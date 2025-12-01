@@ -2,7 +2,6 @@ package com.example.guiapocket.data.dao
 
 import androidx.room.*
 import com.example.guiapocket.model.Service
-import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ServiceDao {
@@ -19,7 +18,7 @@ interface ServiceDao {
     @Query("SELECT * FROM service ORDER BY nome ASC")
     suspend fun getAll(): List<Service>
 
-    @Query("SELECT * FROM service WHERE nome LIKE '%' || :filter || '%' ORDER BY nome ASC")
+    @Query("SELECT * FROM service WHERE nome LIKE '%' || :filter || '%' OR categoria LIKE '%' || :filter || '%' ORDER BY nome ASC")
     suspend fun filterByName(filter: String): List<Service>
 
     @Query("SELECT * FROM service WHERE id = :id")
