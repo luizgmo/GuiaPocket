@@ -30,7 +30,7 @@ class DetailActivity : AppCompatActivity() {
         serviceId = intent.getIntExtra("SERVICE_ID", -1)
 
         if (serviceId == -1) {
-            Toast.makeText(this, "Erro ao carregar serviço", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.error_loading_service), Toast.LENGTH_SHORT).show()
             finish()
             return
         }
@@ -46,7 +46,7 @@ class DetailActivity : AppCompatActivity() {
                 if (service != null) {
                     setupServiceDetails(service)
                 } else {
-                    Toast.makeText(this@DetailActivity, "Serviço não encontrado", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@DetailActivity, getString(R.string.service_not_found), Toast.LENGTH_SHORT).show()
                     finish()
                 }
             }

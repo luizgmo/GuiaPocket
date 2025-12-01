@@ -1,44 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Pocket Guide - Jardim Universal</string>
     <string name="service_image">Business Image</string>
 
-    <string name="padaria_nsa">NSA Bakery</string>
-    <string name="enricar_frotas">Enricar Frotas</string>
-    <string name="centerlab_ambiental">Centerlab Environmental</string>
-    <string name="american_rolamentos">American Bearings and Bushings</string>
-    <string name="viccar_diesel">VicCar Diesel</string>
-    <string name="vpm_viagens">VPM Travel and Exchange</string>
-
-    <string name="bakery">Bakery</string>
-    <string name="transport">Fleet and Transport</string>
-    <string name="laboratory">Laboratory</string>
-    <string name="auto_parts">Auto Parts</string>
-    <string name="mechanic">Workshop</string>
-    <string name="travel_agency">Travel Agency</string>
-
-    <string name="padaria_nsa_description">Traditional bakery in Jardim Universal, offering fresh breads, snacks, cakes and bakery products. Quality service for years in the neighborhood.</string>
-    <string name="enricar_frotas_description">Company specialized in vehicle fleet management. Rental, maintenance and fleet administration services for companies.</string>
-    <string name="centerlab_ambiental_description">Environmental analysis laboratory specialized in water, effluent and soil analysis. Certified and with qualified professionals.</string>
-    <string name="american_rolamentos_description">Distributor of bearings, bushings, belts and industrial parts. Service for industries and commerce in the region.</string>
-    <string name="viccar_diesel_description">Workshop specialized in diesel engines and heavy vehicles. Maintenance, repairs and parts for trucks and buses.</string>
-    <string name="vpm_viagens_description">Travel and exchange agency. National and international packages, air tickets, accommodation and cultural exchange programs.</string>
-
-    <string name="padaria_nsa_address">Av. Romulo Lupo, 948 - Jardim Universal, Araraquara - SP, 14801-700</string>
-    <string name="enricar_frotas_address">Av. Romulo Lupo, 1080 - Jardim Universal, Araraquara - SP, 14801-719</string>
-    <string name="centerlab_ambiental_address">Av. Brivaldo Prado, 25 - Jardim Universal, Araraquara - SP, 14801-731</string>
-    <string name="american_rolamentos_address">Rua Antonio Eugenio Nogueira da Gama, 242 - Jardim Universal, Araraquara - SP, 14801-732</string>
-    <string name="viccar_diesel_address">Rua Maria Marchi Vissali, 469 - Portão 2, R. Antonio Eugênio Nogueira da Gama, 580 - Portão 1 - Jardim Universal, Araraquara - SP, 14801-728</string>
-    <string name="vpm_viagens_address">R. Mahiba Barcha - Jardim Universal, Araraquara - SP, 14801-719</string>
-
+    <!-- Buttons and actions -->
     <string name="call">Call</string>
     <string name="visit_website">Visit Website</string>
     <string name="open_in_maps">Open in Maps</string>
     <string name="share">Share</string>
     <string name="share_via">Share via</string>
     <string name="no_website">Website not available</string>
-
     <string name="back">Back</string>
-
     <string name="daynight">Day / Night</string>
     <string name="idioma">PT / EN</string>
+    <string name="add_service">Add Establishment</string>
+    <string name="filter_hint">Filter by name or category</string>
+
+    <!-- CadastroActivity -->
+    <string name="select_image">Select Image</string>
+    <string name="name_hint">Establishment Name</string>
+    <string name="category_hint">Category (e.g., Restaurant, Workshop)</string>
+    <string name="description_hint">Description</string>
+    <string name="phone_hint">Phone</string>
+    <string name="website_hint">Website (optional)</string>
+    <string name="address_hint">Address</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="required_fields">Fill in required fields</string>
+    <string name="save_success">Service saved successfully!</string>
+
+    <!-- Errors and messages -->
+    <string name="service_not_found">Service not found</string>
+    <string name="error_loading_service">Error loading service</string>
 </resources>

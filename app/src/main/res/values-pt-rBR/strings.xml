@@ -1,44 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Guia Pocket - Jardim Universal</string>
     <string name="service_image">Imagem do Estabelecimento</string>
 
-    <string name="padaria_nsa">Padaria NSA</string>
-    <string name="enricar_frotas">Enricar Frotas</string>
-    <string name="centerlab_ambiental">Centerlab Ambiental</string>
-    <string name="american_rolamentos">American Rolamentos e Mancais</string>
-    <string name="viccar_diesel">VicCar Diesel</string>
-    <string name="vpm_viagens">VPM Viagens e Intercâmbio</string>
-
-    <string name="bakery">Padaria</string>
-    <string name="transport">Frotas e Transporte</string>
-    <string name="laboratory">Laboratório</string>
-    <string name="auto_parts">Peças Automotivas</string>
-    <string name="mechanic">Oficina</string>
-    <string name="travel_agency">Agência de Viagens</string>
-
-    <string name="padaria_nsa_description">Padaria tradicional do Jardim Universal, oferecendo pães frescos, salgados, bolos e produtos de padaria. Atendimento de qualidade há anos no bairro.</string>
-    <string name="enricar_frotas_description">Empresa especializada em gestão de frotas veiculares. Serviços de locação, manutenção e administração de frotas para empresas.</string>
-    <string name="centerlab_ambiental_description">Laboratório de análises ambientais especializado em análises de água, efluentes e solos. Certificado e com profissionais qualificados.</string>
-    <string name="american_rolamentos_description">Distribuidora de rolamentos, mancais, correias e peças industriais. Atendimento para indústrias e comércio da região.</string>
-    <string name="viccar_diesel_description">Oficina especializada em motores diesel e veículos pesados. Manutenção, reparos e peças para caminhões e ônibus.</string>
-    <string name="vpm_viagens_description">Agência de viagens e intercâmbio. Pacotes nacionais e internacionais, passagens aéreas, hospedagem e programas de intercâmbio cultural.</string>
-
-    <string name="padaria_nsa_address">Av. Romulo Lupo, 948 - Jardim Universal, Araraquara - SP, 14801-700</string>
-    <string name="enricar_frotas_address">Av. Romulo Lupo, 1080 - Jardim Universal, Araraquara - SP, 14801-719</string>
-    <string name="centerlab_ambiental_address">Av. Brivaldo Prado, 25 - Jardim Universal, Araraquara - SP, 14801-731</string>
-    <string name="american_rolamentos_address">Rua Antonio Eugenio Nogueira da Gama, 242 - Jardim Universal, Araraquara - SP, 14801-732</string>
-    <string name="viccar_diesel_address">Rua Maria Marchi Vissali, 469 - Portão 2, R. Antonio Eugênio Nogueira da Gama, 580 - Portão 1 - Jardim Universal, Araraquara - SP, 14801-728</string>
-    <string name="vpm_viagens_address">R. Mahiba Barcha - Jardim Universal, Araraquara - SP, 14801-719</string>
-
+    <!-- Botões e ações -->
     <string name="call">Ligar</string>
     <string name="visit_website">Visitar Site</string>
     <string name="open_in_maps">Abrir no Maps</string>
     <string name="share">Compartilhar</string>
     <string name="share_via">Compartilhar via</string>
     <string name="no_website">Site não disponível</string>
-
     <string name="back">Voltar</string>
-
     <string name="daynight">Dia / Noite</string>
     <string name="idioma">PT / EN</string>
+    <string name="add_service">Adicionar Estabelecimento</string>
+    <string name="filter_hint">Filtrar por nome ou categoria</string>
+
+    <!-- CadastroActivity -->
+    <string name="select_image">Selecionar Imagem</string>
+    <string name="name_hint">Nome do Estabelecimento</string>
+    <string name="category_hint">Categoria (ex: Restaurante, Oficina)</string>
+    <string name="description_hint">Descrição</string>
+    <string name="phone_hint">Telefone</string>
+    <string name="website_hint">Website (opcional)</string>
+    <string name="address_hint">Endereço</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="required_fields">Preencha os campos obrigatórios</string>
+    <string name="save_success">Serviço salvo com sucesso!</string>
+
+    <!-- Erros e mensagens -->
+    <string name="service_not_found">Serviço não encontrado</string>
+    <string name="error_loading_service">Erro ao carregar serviço</string>
 </resources>

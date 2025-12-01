@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import com.example.guiapocket.R
 import com.example.guiapocket.data.database.AppDatabase
 import com.example.guiapocket.databinding.ActivityCadastroBinding
 import com.example.guiapocket.model.Service
@@ -65,7 +66,7 @@ class CadastroActivity : AppCompatActivity() {
         val address = binding.edtAddress.text.toString().trim()
 
         if (name.isEmpty() || category.isEmpty() || description.isEmpty() || phone.isEmpty()) {
-            Toast.makeText(this, "Preencha os campos obrigatórios", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.required_fields), Toast.LENGTH_SHORT).show()
             return
         }
 
@@ -88,7 +89,7 @@ class CadastroActivity : AppCompatActivity() {
         CoroutineScope(Dispatchers.IO).launch {
             db.serviceDao().insert(service)
             runOnUiThread {
-                Toast.makeText(this@CadastroActivity, "Serviço salvo com sucesso!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@CadastroActivity, getString(R.string.save_success), Toast.LENGTH_SHORT).show()
                 finish()
             }
         }
