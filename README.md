@@ -53,9 +53,8 @@ O **Guia Pocket - Jardim Universal** é um aplicativo Android desenvolvido em Ko
   <img src="screenshots/demo.gif" width="300" alt="Demo do App Guia Pocket">
 </p>
 
+## Vídeo Explicativo em Inglês
 [![Vídeo Explicativo em Inglês](https://img.shields.io/badge/▶-Assistir_Vídeo_Explicativo-FF0000?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1Bgr0nMYeyt3GsdaNQHHqos7SA-Kv-5xp/view?usp=sharing)
-
-*Vídeo explicativo em inglês da explicação técnica do código*
 
 ### **📹 Conteúdo do Vídeo:**
 - Explicação da arquitetura Room Database
