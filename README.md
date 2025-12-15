@@ -1,36 +1,50 @@
 # 📱 Guia Pocket - Jardim Universal
 
 ## 📋 Descrição do Projeto
-O **Guia Pocket - Jardim Universal** é um aplicativo Android desenvolvido em Kotlin que funciona como um guia comercial para o bairro Jardim Universal em Araraquara/SP. O app permite aos usuários explorar estabelecimentos locais, visualizar detalhes e acionar funcionalidades nativas como ligações, navegação e compartilhamento.
+O **Guia Pocket - Jardim Universal** é um aplicativo Android desenvolvido em Kotlin que funciona como um guia comercial colaborativo para o bairro Jardim Universal em Araraquara/SP. O app permite aos usuários cadastrar, explorar estabelecimentos locais e acionar funcionalidades nativas como ligações, navegação e compartilhamento.
 
-## 🎯 Funcionalidades
-- ✅ **Lista de Estabelecimentos** - Visualização em cards com imagens
-- ✅ **Detalhes Completos** - Informações detalhadas de cada serviço
-- ✅ **Intents Nativas** - Ligação, site, maps e compartilhamento
-- ✅ **Internacionalização** - Suporte a Português e Inglês
-- ✅ **Modo Claro/Escuro** - Tema automático seguindo sistema
-- ✅ **Interface Responsiva** - Design moderno com Material Design
+## ✨ Funcionalidades
+### ✅ **Lista de Estabelecimentos**
+- RecyclerView otimizado com ViewHolder
+- Cards com imagem, nome e categoria
+- Filtro em tempo real por nome ou categoria
+- Atualização automática após cadastro
 
-## 🛠 Tecnologias Utilizadas
-- **Linguagem**: Kotlin
-- **Arquitetura**: MVC (Model-View-Controller)
-- **UI**: XML com ViewBinding
-- **Componentes**: ListView, Adapter personalizado, Intents
-- **Recursos**: Internacionalização, Themes, Material Design
+### ✅ **Sistema de Cadastro**
+- Formulário completo com validação
+- Upload de imagens da galeria
+- Persistência local com Room Database
+- Feedback visual com Toast messages
 
-## 📸 Capturas de Tela
+### ✅ **Detalhes do Estabelecimento**
+- Visualização completa de informações
+- Intents nativas integradas:
+  - 📞 **Ligar** (ACTION_DIAL)
+  - 🌐 **Visitar site** (ACTION_VIEW)
+  - 🗺️ **Abrir no Maps** (geo: URI)
+  - 📤 **Compartilhar** (ACTION_SEND)
+- Imagem destacada em alta resolução
 
-### 🌞 Modo Claro
-<p align="center">
-  <img src="screenshots/light_pt.png" width="280" alt="Modo Claro Português">
-  <img src="screenshots/light_en.png" width="280" alt="Modo Claro Inglês">
-</p>
+### ✅ **Internacionalização**
+- Suporte completo a Português e Inglês
+- Troca de idioma dinâmica
+- Strings centralizadas em resources
+- Formatação locale-aware
 
-### 🌙 Modo Escuro  
-<p align="center">
-  <img src="screenshots/dark_pt.png" width="280" alt="Modo Escuro Português">
-  <img src="screenshots/dark_en.png" width="280" alt="Modo Escuro Inglês">
-</p>
+### ✅ **Temas e Personalização**
+- Modo Claro/Escuro automático
+- Alternância manual de temas
+- Design com Material Design 3
+- Interface responsiva e acessível
+
+## 🛠️ Arquitetura Técnica
+### **Tecnologias Utilizadas**
+- **Linguagem**: Kotlin 100%
+- **Persistência**: Room Database + SQLite
+- **UI Components**: RecyclerView, ViewBinding
+- **Arquitetura**: Clean Architecture com Repository Pattern
+- **Concorrência**: Kotlin Coroutines
+- **Navegação**: Intents e ActivityResult API
 
 ## 🎥 Demonstração em Vídeo
 *Demonstração das funcionalidades principais do aplicativo*
@@ -38,34 +52,6 @@ O **Guia Pocket - Jardim Universal** é um aplicativo Android desenvolvido em Ko
 <p align="center">
   <img src="screenshots/demo.gif" width="300" alt="Demo do App Guia Pocket">
 </p>
-
-## 🏢 Estabelecimentos Incluídos
-- 🥖 Padaria NSA
-- 🚚 Enricar Frotas  
-- 🔬 Centerlab Ambiental
-- 🔧 American Rolamentos
-- 🚛 VicCar Diesel
-- ✈️ VPM Viagens
-
-## 📱 Funcionalidades por Tela
-
-### Tela Principal (`MainActivity`)
-- Lista rolável de estabelecimentos
-- Cards com imagem, nome e categoria
-- Título com tema dinâmico
-- Design responsivo
-
-### Tela de Detalhes (`DetailActivity`)  
-- Imagem destacada do estabelecimento
-- Informações completas (descrição, telefone, endereço)
-- Botões de ação:
-  - 📞 Ligar
-  - 🌐 Visitar site
-  - 🗺️ Abrir no Maps
-  - 📤 Compartilhar
-  - 🔙 Voltar
-  - 🌓 Alternar tema
-  - 🌐 Trocar idioma
 
   ## 🚀 Como Executar
 1. Clone o repositório
