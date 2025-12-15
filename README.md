@@ -53,7 +53,20 @@ O **Guia Pocket - Jardim Universal** é um aplicativo Android desenvolvido em Ko
   <img src="screenshots/demo.gif" width="300" alt="Demo do App Guia Pocket">
 </p>
 
-  ## 🚀 Como Executar
+[![Vídeo Explicativo em Inglês](https://img.shields.io/badge/▶-Assistir_Vídeo_Explicativo-FF0000?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1Bgr0nMYeyt3GsdaNQHHqos7SA-Kv-5xp/view?usp=sharing)
+
+*Vídeo explicativo em inglês da explicação técnica do código*
+
+### **📹 Conteúdo do Vídeo:**
+- Explicação da arquitetura Room Database
+- Demonstração do RecyclerView e Adapter
+- Funcionamento dos Intents nativos
+- Implementação do ActivityResult para imagens
+- Sistema de filtro em tempo real
+
+**Para assistir:** Clique no botão acima ou [acesse este link](https://drive.google.com/file/d/1Bgr0nMYeyt3GsdaNQHHqos7SA-Kv-5xp/view?usp=sharing)
+
+## 🚀 Como Executar
 1. Clone o repositório
 2. Abra no Android Studio
 3. Sincronize o projeto
